@@ -1,0 +1,41 @@
+
+.logo {
+    float: left;
+    width: 15%;
+    padding: 1%;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li { 
+    display: inline-block;
+    margin: 50px;
+}
+
+
+.social media {
+    float: right;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+footer ul { 
+    display: inline-block;
+    list-style: none;
+
+
+}
