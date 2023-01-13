@@ -21,8 +21,50 @@ nav li {
 }
 
 
+
+.projects {
+    background: orange;
+    display: flex;
+    justify-content: center;
+   
+
+   
+}
+
+.project1 {
+    background: gray;
+    margin:20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+
+.project2 {
+    background: gray;
+    margin:20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+
+.project3 {
+    background: gray;
+    margin:20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+
+
+
+
+
 .social media {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer {
