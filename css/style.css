@@ -1,15 +1,14 @@
 
 .logo {
-    float: left;
-    width: 15%;
+    display: flex;
+    width: 10%;
     padding: 1%;
 }
 
-nav {
-    float: right;
-}
 
 nav ul {
+    display: flex;
+
     margin: 0;
     padding: 0;
     list-style: none;
@@ -24,8 +23,12 @@ nav li {
 
 .projects {
     background: orange;
+    width: 150px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+   
+
    
 
    
@@ -34,27 +37,31 @@ nav li {
 .project1 {
     background: gray;
     margin:20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     text-align: center;
+    font-size: 80%;
+   
 }
 
 
 .project2 {
     background: gray;
     margin:20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     text-align: center;
+    font-size: 80%;
 }
 
 
 .project3 {
     background: gray;
     margin:20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     text-align: center;
+    font-size: 80%;
 }
 
 
@@ -62,7 +69,7 @@ nav li {
 
 
 
-.social media {
+.socialmedia {
     display: flex;
     justify-content: flex-end;
 }
