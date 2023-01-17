@@ -17,9 +17,11 @@ header {
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
     list-style: none;
+    display: flex;
+    
 
 
 }
@@ -60,33 +62,52 @@ section {
     height: 100px;
     text-align: center;
     font-size: 80%;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto; 
    
 }
 
 
 
-
-
-
-
 .socialmedia {
-    display: flex;
-    justify-content: flex-end;
+    width: 40%;
 }
 
-footer {
+
+footer { 
+    height:50px;
+    background-color: pink;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: white;
+    
+
+
 }
 
-footer ul { 
-    display: inline-block;
+footer ul {
+    /*margin: 0;
+    padding: 0;*/
     list-style: none;
-
-
+    float: right;
 }
+
+
+
+footer li {
+    background-color: aqua; 
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    
+}
+
+.rodaba {
+    background-color: aqua;
+    list-style: none;
+    display: flex;
+    display: inline-block;
+}
+
+
