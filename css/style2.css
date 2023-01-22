@@ -118,6 +118,23 @@ footer {
 }
 
 
+/* MEDIA QEURIES*/
+@media only screen and (max-width: 400px) {
+
+    header {
+		float: none;
+		width: 50%;
+		background-color: #ffaaaa;
+	}
+	section {
+		background-color: blue
+	}
+	.container {
+		background-color: blue;
+	}
+}
+
+
 
 
 
