@@ -16,6 +16,11 @@ header {
     margin-right: auto;
 }
 
+.navbar {
+    width: 5%;
+    display: none;
+}
+
 
 nav ul {
     list-style: none;
@@ -118,13 +123,22 @@ footer {
 }
 
 
-
 /* MEDIA QEURIES*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
+
+    .navbar{
+        display: block;
+        width: 5%;
+
+    }
+
+    nav ul {
+        display: none;
+    }
 
     header {
 		float: none;
-		width: 50%;
+		width: 100%;
 		background-color: #ffaaaa;
 	}
 	section {
