@@ -24,14 +24,17 @@ header {
 
 nav ul {
     list-style: none;
-    word-spacing: 0px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
 
 nav li { 
-    display: inline-block;
-    margin: 30px;
+    /*display: inline-block;*/
+    margin: 20px 10px ;
+    border-style: none;
 }
 
 
