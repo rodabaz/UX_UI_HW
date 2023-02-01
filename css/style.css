@@ -1,6 +1,6 @@
 
 body {
-    margin: 0px;
+    /*margin: 0px;*/
 }
 
 
@@ -12,7 +12,9 @@ header {
     /*justify-content: flex-end;*/
     align-items: center;
     /*padding: 30px;*/
-    position:absolute;
+    /*position:absolute;*/
+    position: sticky;
+    top: 0;
     width: 100%;
 }
 
@@ -31,7 +33,7 @@ header {
 }
 
 .headerlist {
-    margin-left: 500px;
+    /*margin-left: 500px;*/
 
 }
 
@@ -106,8 +108,8 @@ section {
 
 
 .projects {
-    background: FFFBF8;
-    height: px;
+    background: #FFFBF8;
+    /*height: px;*/
     width: 150px;
     padding: 20px;
     display: block;
@@ -142,7 +144,9 @@ section {
 footer { 
     height: 70px;
     background-color: white;
-    position: absolute;
+    position: sticky;
+    top: 0;
+    /*position: absolute;*/
     left: 0;
     bottom: 0;
     width: 100%;
