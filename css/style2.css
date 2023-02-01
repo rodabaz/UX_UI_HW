@@ -1,8 +1,15 @@
+
+body {
+    margin: 0px;
+}
+
+
+
 header {
     /*height:100px;*/
     background-color: #FFFBF8;
     display: flex;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     align-items: center;
     /*padding: 30px;*/
     position:absolute;
@@ -14,6 +21,8 @@ header {
 .logo {
     width: 10%;
     margin-right: auto;
+
+
 }
 
 .navbar {
@@ -21,11 +30,17 @@ header {
     display: none;
 }
 
+.headerlist {
+    margin-left: 500px;
+
+}
 
 nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    font-family: 'Kumbh Sans', sans-serif;
+
     
 }
 
@@ -35,6 +50,7 @@ nav li {
     /*display: inline-block;*/
     margin: 20px 10px ;
     border-style: none;
+    font-weight: 400;
 }
 
 
@@ -59,10 +75,10 @@ nav li {
     /*padding: 15px;*/
     width: 100px;
     color: white;
-    font-weight: 500;
+    /*font-weight: 500;*/
     cursor: pointer; 
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
 ul {
     margin:0;
@@ -81,8 +97,8 @@ li {
 
 
 section {
-    background-color: white ;
-    height: 675px;
+    background-color: #FFFBF8;
+    height: 900px;
     display: flex;
     align-items: center;
 
@@ -91,7 +107,7 @@ section {
 
 .projects {
     background: FFFBF8;
-    height: 360px;
+    height: px;
     width: 150px;
     padding: 20px;
     display: block;
@@ -124,12 +140,14 @@ section {
 
 
 footer { 
-    height: 50px;
+    height: 70px;
     background-color: white;
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+
 }
 
 .container {
@@ -171,6 +189,7 @@ footer {
 /* MEDIA QEURIES*/
 @media only screen and (max-width: 750px) {
 
+   
     .navbar{
         display: block;
         width: 30%;
