@@ -1,6 +1,6 @@
 
 body {
-    /*margin: 0px;*/
+    margin: 0px;
 }
 
 
@@ -32,10 +32,6 @@ header {
     display: none;
 }
 
-.headerlist {
-    /*margin-left: 500px;*/
-
-}
 
 nav ul {
     list-style: none;
@@ -211,7 +207,7 @@ footer {
 		background-color: #FFFBF8;
 	}
 	section {
-		background-color: white;
+		background-color: #FFFBF8;
 	}
 	.container {
 		background-color: white;
